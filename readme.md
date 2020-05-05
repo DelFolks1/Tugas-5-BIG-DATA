@@ -1,5 +1,6 @@
 
 <h1> Membuat Apache Spark Cluster Menggunakan Docker </h1>
+<h2> Membuat Apache Spark Cluster </h2>
 1. Buat file docker-compose.yml yang berisi : <br>
 
   version: '2'<br>
@@ -75,4 +76,15 @@
 <img src="dokumentasi1/22100_1.jpg"><br>
 3. Cek kontainer dengan docker-ps<br>
 <img src="dokumentasi1/22100_3.jpg"><br>
+4. Kita dapat melakukan tes spark cluster dengan melakukan web UI <br> 
+<img src="dokumentasi1/22100_5.jpg"><br>
 
+<h2> Menjalankan Script Python di Dalam Apache Spark Cluster </h2>
+1. Ketik docker ps untuk melihat container yang sedang berjalan<br>
+2. Masuklah ke dalam container dan mengeksekusi bash dengan menggunakan perintah berikut: docker exec -it <container_id> /bin/bash. Container id diisi dengan id dari spark master<br>
+3. Cek alamat IP dengan menggunakan perintah berikut : hostname -i <br>
+<img src="dokumentasi1/22100_3.jpg"><br>
+4. Untuk melakukan submit job, Apache Spark menyediakan command spark-submit. <br>
+Lakukan perintah berikut : spark-submit --master spark://172.18.0.4:7077 examples/src/main/python/pi.py 10 <br>
+5. Tunggu sampe proses selesai <br>
+<img src="dokumentasi1/22100_4.jpg"><br>
