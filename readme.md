@@ -107,3 +107,4 @@ Partisi: 100, 1000<br>
 <img src="dokumentasi1/5w4c.jpg"><br><br>
 Note : waktu proses selesai dari 1000 partisi selalu berada di bag atas (yang memiliki waktu lebih lama) sedangkan 100 partisi yg bagian bawah <br>
 
+<h2> Kesimpulan </h2>
