@@ -88,3 +88,17 @@
 Lakukan perintah berikut : spark-submit --master spark://172.18.0.4:7077 examples/src/main/python/pi.py 10 <br>
 5. Tunggu sampe proses selesai <br>
 <img src="dokumentasi1/22100_4.jpg"><br>
+
+<h2> Tugas membandingkan </h2>
+Lakukan percobaan dengan mengganti parameter-parameter berikut:<br>
+Jumlah worker: 2, 5<br>
+Jumlah CPU: 2, 4<br>
+Memory: 1G<br>
+Partisi: 100, 1000<br>
+
+1. Lakukan cara2 diatas dari awal membuat spark cluster sampai dengan menjalankan pi.py di dalam CMD. <br>
+2. Kita bandingkan 2 worker dengan 2 CPU antara 100 dan 1000 partisi <br>
+
+
+
+
