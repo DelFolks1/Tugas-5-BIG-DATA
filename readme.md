@@ -99,6 +99,11 @@ Partisi: 100, 1000<br>
 1. Lakukan cara2 diatas dari awal membuat spark cluster sampai dengan menjalankan pi.py di dalam CMD. <br>
 2. Kita bandingkan 2 worker dengan 2 CPU antara 100 dan 1000 partisi <br>
 <img src="dokumentasi1/perb1.jpg"><br>
-
+3. Kita bandingkan 2 worker dengan 4 CPU antara 100 dan 1000 partisi <br>
+<img src="dokumentasi1/2w4c.jpg"><br>
+4. Kita bandingkan 5 worker dengan 2 CPU antara 100 dan 1000 partisi <br>
+<img src="dokumentasi1/5w2c.jpg"><br>
+5. Kita bandingkan 5 worker dengan 4 CPU antara 100 dan 1000 partisi <br>
+<img src="dokumentasi1/5w4c.jpg"><br>
 
 
