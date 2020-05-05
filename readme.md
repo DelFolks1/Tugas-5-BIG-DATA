@@ -108,7 +108,7 @@ Partisi: 100, 1000<br>
 Note : waktu proses selesai dari 1000 partisi selalu berada di bag atas (yang memiliki waktu lebih lama) sedangkan 100 partisi yg bagian bawah <br>
 
 <h2> Kesimpulan </h2>
-- Kita akan membandingkan antar 2 worker dengan 2 Cores dan 2 worker dengan 4 Cores. Untuk job dengan 100 dan 100 partisi, 2 worker dan 4 cores memiliki durasi waktu yang lebih cepat untuk keduanya.
-- Selanjutnya, kita membandingkan 5 worker dengan 2 cores dan 5 worker dan 4 cores. Untuk job dengan 100 dan 1000 partisi, 5 worker dan 2 cores memiliki durasi yang lebih cepat untuk keduanya.
-- Penambahan worker bisa membuat proses lebih lama seperti yang terlihat dari durasi dari 2 worker dan 5 worker namun akan memiliki hasil lebih akurat.
-- Penambahan core(CPU) bisa membuat proses lebih cepat.
+- Kita akan membandingkan antar 2 worker dengan 2 Cores dan 2 worker dengan 4 Cores. Untuk job dengan 100 dan 100 partisi, 2 worker dan 4 cores memiliki durasi waktu yang lebih cepat untuk keduanya.<br>
+- Selanjutnya, kita membandingkan 5 worker dengan 2 cores dan 5 worker dan 4 cores. Untuk job dengan 100 dan 1000 partisi, 5 worker dan 2 cores memiliki durasi yang lebih cepat untuk keduanya.<br>
+- Penambahan worker bisa membuat proses lebih lama seperti yang terlihat dari durasi dari 2 worker dan 5 worker namun akan memiliki hasil lebih akurat.<br>
+- Penambahan core(CPU) bisa membuat proses lebih cepat.<br>
