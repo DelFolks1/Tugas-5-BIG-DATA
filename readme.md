@@ -70,7 +70,9 @@
         - SPARK_RPC_ENCRYPTION_ENABLED=no<br>
         - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no<br>
         - SPARK_SSL_ENABLED=no<br>
-        <br><br>
-2. Jalankan perintah docker-compose up
-<img src="">
-<img>
+        <br>
+2. Jalankan perintah docker-compose up<br>
+<img src="dokumentasi1/22100_1.jpg"><br>
+3. Cek kontainer dengan docker-ps<br>
+<img src="dokumentasi1/22100_3.jpg"><br>
+
